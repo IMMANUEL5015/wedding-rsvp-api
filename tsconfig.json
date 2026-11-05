@@ -1,0 +1,7 @@
+{
+    "extends": "@tsconfig/node24/tsconfig",
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "dist"
+    }
+}

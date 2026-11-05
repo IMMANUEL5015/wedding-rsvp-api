@@ -1,0 +1,43 @@
+{
+  "name": "wedding-rsvp-api",
+  "version": "1.0.0",
+  "description": "RSVP API for reserving seats at a wedding event",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IMMANUEL5015/wedding-rsvp-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/IMMANUEL5015/wedding-rsvp-api/issues"
+  },
+  "homepage": "https://github.com/IMMANUEL5015/wedding-rsvp-api#readme",
+  "dependencies": {
+    "compression": "^1.8.2",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-validator": "^7.3.2",
+    "helmet": "^8.3.0",
+    "hpp": "^0.2.3",
+    "mongoose": "^9.12.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node24": "^24.0.5",
+    "@types/compression": "^1.8.1",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/hpp": "^0.2.7",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

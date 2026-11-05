@@ -1,0 +1,4 @@
+NODE_ENV=dev
+PORT=3000
+DATABASE_URI=mongodb+srv://<user>:<password>@<cluster>/<database>
+API_ACCESS_KEY=<a-long-random-secret>
